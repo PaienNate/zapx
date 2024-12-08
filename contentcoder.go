@@ -17,10 +17,9 @@ package zap
 import (
 	"bytes"
 	"encoding/binary"
+	snappy "github.com/klauspost/compress/s2"
 	"io"
 	"reflect"
-
-	"github.com/golang/snappy"
 )
 
 var reflectStaticSizeMetaData int

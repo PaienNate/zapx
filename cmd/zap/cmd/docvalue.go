@@ -24,7 +24,7 @@ import (
 	"strconv"
 
 	zap "github.com/blevesearch/zapx/v16"
-	"github.com/golang/snappy"
+	snappy "github.com/klauspost/compress/s2"
 	"github.com/spf13/cobra"
 )
 

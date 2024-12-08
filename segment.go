@@ -28,7 +28,7 @@ import (
 	mmap "github.com/blevesearch/mmap-go"
 	segment "github.com/blevesearch/scorch_segment_api/v2"
 	"github.com/blevesearch/vellum"
-	"github.com/golang/snappy"
+	snappy "github.com/klauspost/compress/s2"
 )
 
 var reflectStaticSizeSegmentBase int

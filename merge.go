@@ -25,7 +25,7 @@ import (
 
 	"github.com/RoaringBitmap/roaring"
 	seg "github.com/blevesearch/scorch_segment_api/v2"
-	"github.com/golang/snappy"
+	snappy "github.com/klauspost/compress/s2"
 )
 
 var DefaultFileMergerBufferSize = 1024 * 1024

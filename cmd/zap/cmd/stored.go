@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/golang/snappy"
+	snappy "github.com/klauspost/compress/s2"
 	"github.com/spf13/cobra"
 )
 
